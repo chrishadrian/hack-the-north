@@ -94,24 +94,25 @@ img {
   justify-content: center;
 }
 
-/* .center{
-	position: absolute;
+.center{
+	position: relative;
 	top: 50%;
 	left: 50%;
 	transform: translate(-50%, -50%);
+  margin-left: 40px;
 }
 
 .box{
-  width: 74px;
-  height: 74px;
+  width: 30px;
+  height: 30px;
   box-sizing: border-box;
   border-style: solid;
-  border-width: 37px 0px 37px 74px;
+  border-width: 30px 0px 30px 60px;
   border-color: transparent transparent transparent steelblue;
   transition: all 100ms ease-in-out;
 }
 
 .pause{
   border-style: double;
-  border-width:0px 0px 0px 60px;
-} */
+  border-width:0px 0px 0px 35px;
+}
